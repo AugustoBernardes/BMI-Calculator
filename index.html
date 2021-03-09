@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC-Calculator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/icon.svg">
+
+    <script>
+
+    </script>
+</head>
+
+<body>
+
+
+    <main>
+
+        <div class="image rect">
+            <h1>IMC Calculator</h1>
+            <img src="./assets/image.svg" alt="runstats">
+        </div>
+        <div class="calculatorContainer rect">
+            <p>This is the IMC calculator or known as BMI,here you can calculate your body mass,to calculate if you are
+                at the ideal weight,fill in your details (weight and height) don't forget to use in centimeters and kg.
+            </p>
+
+            <div class="calculator">
+                <h4 class="calcText">Weight (ex:69 kg)</h3>
+                    <input id="inp1" type="number" placeholder="weight">
+                    <h4 class="calcText">Height (ex:170 cm)</h3>
+                        <input id="inp2" type="number" placeholder="height (centimeters)">
+                        <button class="btn" onclick="calculate()">Calculate</button>
+                        <div id="result">
+
+                        </div>
+                        <footer>
+                            developed by <a class="link" href="https://github.com/AugustoBernardes">Augusto</a>
+                        </footer>
+
+            </div>
+        </div>
+        
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
